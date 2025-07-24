@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int inputData = 100; //счет клиента, начальные данные
+        int inputData = 500; //счет клиента, начальные данные
         int bonus; //бонусы
-        int amount = 1250; //сумма пополнения
+        int amount = 1325; //сумма пополнения
         int sum; //новый размер счета после пополнения
         sum = inputData + amount;
-        if (amount >= inputData) {
-            bonus = amount / inputData;
+        if (amount >= 1000) {
+            bonus = amount / 100;
         }
         else {
             bonus = 0;
