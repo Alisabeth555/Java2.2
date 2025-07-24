@@ -7,8 +7,7 @@ public class Main {
         sum = inputData + amount;
         if (amount >= 1000) {
             bonus = amount / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         System.out.println("состояние счета: " + sum);
